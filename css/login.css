@@ -1,0 +1,43 @@
+#divCon {
+    margin-top: 10%;
+}
+#divCon section {
+    text-align: center;
+    width: 100%;
+    /* border: 1px solid black; */
+    margin: auto;
+    margin-bottom: 10px;
+    /* background-color: rgba(0,0,0,0.5); */
+    padding-top: 30px;
+}
+
+input[type="email"], input[type="password"], form input[type="text"], input[type="number"] {
+    width: 150px;
+    padding: 10px;
+    margin-top: 10px;
+}
+#sumbit {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    /* background-color: rgb(73, 73, 73); */
+    background-color: white;
+    padding: 15px;
+    font-weight: bold;
+    /* color: white; */
+}
+#sumbit:hover {
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+}
+
+#divCon section a {
+    text-decoration: none;
+    color: white;
+}
+
+#divCon span {
+    color: white;
+}

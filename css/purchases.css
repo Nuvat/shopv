@@ -1,0 +1,37 @@
+#divCon table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#menu {
+    width: 100%;
+    max-height: 600px;
+    overflow: auto;
+    background-color: white;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+#menu button {
+    width: 80%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+#menu::-webkit-scrollbar, #content::-webkit-scrollbar {
+    width: 100%; /* Ancho de la barra de desplazamiento */
+}
+
+#content {
+    width: 85%;
+    max-height: 600px;
+    overflow: auto;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 5 columnas de igual tamaño */
+    grid-template-rows: repeat(auto, 1000px);
+    gap: 30px; /* Espacio entre las cajas */
+    padding: 20px;
+}

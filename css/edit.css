@@ -1,0 +1,71 @@
+
+.pro {
+  width: 70%;
+  background-color: white;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  margin: auto;
+  padding: 20px;
+}
+
+.pro h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  border-bottom: 2px solid black;
+  padding-bottom: 20px;
+}
+
+.pro table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.pro img {
+  padding: 10px;
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.pro h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 17px;
+  margin: 20px;
+}
+
+.pro h3 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.pro button {
+  margin-left: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  /* border: 1px solid black; */
+  border: none;
+  background-color: white;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.pro button:hover {
+  box-shadow: 0px 4px 6px rgba(0, 0, 255, 1);
+  background-color: blue;
+  color: white;
+  border:  solid 1px solid blue;
+  cursor: pointer;
+}
+
+#count {
+  text-align: center;
+  width: 40px;
+  padding: 10px;
+  border-radius: 20px;
+  /* border: 1px solid black; */
+  border: none;
+  background-color: white;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+}
+#count:focus {
+  outline: none; /* Desactiva el resaltado por defecto */
+}

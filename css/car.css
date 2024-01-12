@@ -1,0 +1,62 @@
+#divCon {
+    width: 75%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 5 columnas de igual tamaño */
+    /* grid-template-rows: repeat(auto, 1000px); */
+    gap: 30px; /* Espacio entre las cajas */
+    padding: 20px;
+    height: 600px;
+}
+.producto {
+    margin: 0;
+    height: 200px;
+    /* padding: 20px; */
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+    justify-content: center;
+
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis; 
+}
+.producto:hover {
+    box-shadow: 0px 4px 6px rgba(0, 0, 255, 1);
+}
+
+.producto h1, .producto h2 {
+    margin: 0;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.producto img {
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 0;
+}
+
+#purchase {
+    text-align: center;
+    background-color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+    border: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 20px;
+    padding:  10px;
+}
+
+#purchase:hover {
+    color:  white;
+    background-color: blue;
+    cursor: pointer;
+}

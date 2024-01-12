@@ -1,0 +1,33 @@
+
+#divCon section {
+    /* border: 1px solid black; */
+    width: 1000px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 1);
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#divCon section span {
+    font-weight: bold;
+}
+
+#divCon section button {
+    margin: 20px;
+    margin-top: 0;
+    width: 70px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+}
+#divCon section button:hover {
+    background-color: blue;
+    color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 255, 1);
+    cursor: pointer;
+}
